@@ -1,0 +1,218 @@
+[
+ {
+  "fn": "coverageTruth",
+  "args": [
+   600,
+   250,
+   2
+  ],
+  "out": "600 square feet at 2 coats of the 250-square-foot claim is 4.8 gallons - a five-gallon pail honestly."
+ },
+ {
+  "fn": "coverageTruth",
+  "args": [
+   200,
+   250,
+   1
+  ],
+  "out": "200 square feet at 1 coat of the 250-square-foot claim is 0.8 gallons - a bucket or two honestly."
+ },
+ {
+  "fn": "coverageTruth",
+  "args": [
+   1000,
+   300,
+   2
+  ],
+  "out": "1000 square feet at 2 coats of the 300-square-foot claim is 6.7 gallons - a few pails honestly."
+ },
+ {
+  "fn": "coverageTruth",
+  "args": [
+   3000,
+   200,
+   2
+  ],
+  "out": "3000 square feet at 2 coats of the 200-square-foot claim is 30.0 gallons - a drum order honestly."
+ },
+ {
+  "fn": "coverageTruth",
+  "args": [
+   100,
+   100,
+   1
+  ],
+  "out": "100 square feet at 1 coat of the 100-square-foot claim is 1.0 gallon - a bucket or two honestly."
+ },
+ {
+  "fn": "coverageTruth",
+  "args": [
+   125,
+   250,
+   2
+  ],
+  "out": "125 square feet at 2 coats of the 250-square-foot claim is 1.0 gallon - a bucket or two honestly."
+ },
+ {
+  "fn": "coverageTruth",
+  "args": [
+   0,
+   250,
+   2
+  ],
+  "err": "the area must be above zero"
+ },
+ {
+  "fn": "coverageTruth",
+  "args": [
+   600,
+   0,
+   2
+  ],
+  "err": "the claimed coverage must be above zero"
+ },
+ {
+  "fn": "coverageTruth",
+  "args": [
+   600,
+   250,
+   0
+  ],
+  "err": "the coats must be above zero"
+ },
+ {
+  "fn": "thirstTruth",
+  "args": [
+   600,
+   250,
+   30
+  ],
+  "out": "600 square feet of weathered asphalt at the 30% thirst norm drinks 3.1 gallons a coat - 0.7 extra gallons of thirst, a working thirst honestly."
+ },
+ {
+  "fn": "thirstTruth",
+  "args": [
+   400,
+   250,
+   10
+  ],
+  "out": "400 square feet of weathered asphalt at the 10% thirst norm drinks 1.8 gallons a coat - 0.2 extra gallons of thirst, a light thirst honestly."
+ },
+ {
+  "fn": "thirstTruth",
+  "args": [
+   2000,
+   200,
+   50
+  ],
+  "out": "2000 square feet of weathered asphalt at the 50% thirst norm drinks 15.0 gallons a coat - 5.0 extra gallons of thirst, a deep thirst honestly."
+ },
+ {
+  "fn": "thirstTruth",
+  "args": [
+   100,
+   250,
+   5
+  ],
+  "out": "100 square feet of weathered asphalt at the 5% thirst norm drinks 0.4 gallons a coat - no real thirst honestly."
+ },
+ {
+  "fn": "thirstTruth",
+  "args": [
+   600,
+   250,
+   0
+  ],
+  "out": "600 square feet of weathered asphalt at the 0% thirst norm drinks 2.4 gallons a coat - no real thirst honestly."
+ },
+ {
+  "fn": "thirstTruth",
+  "args": [
+   600,
+   250,
+   -5
+  ],
+  "err": "the thirst norm must be zero or more"
+ },
+ {
+  "fn": "thirstTruth",
+  "args": [
+   0,
+   250,
+   30
+  ],
+  "err": "the area must be above zero"
+ },
+ {
+  "fn": "crackTruth",
+  "args": [
+   80,
+   30
+  ],
+  "out": "80 linear feet of cracks against the 30-foot tube claim is 3 tubes - a handful of tubes honestly."
+ },
+ {
+  "fn": "crackTruth",
+  "args": [
+   25,
+   30
+  ],
+  "out": "25 linear feet of cracks against the 30-foot tube claim is 1 tube - a single tube honestly."
+ },
+ {
+  "fn": "crackTruth",
+  "args": [
+   100,
+   30
+  ],
+  "out": "100 linear feet of cracks against the 30-foot tube claim is 4 tubes - a handful of tubes honestly."
+ },
+ {
+  "fn": "crackTruth",
+  "args": [
+   300,
+   30
+  ],
+  "out": "300 linear feet of cracks against the 30-foot tube claim is 10 tubes - a box of tubes honestly."
+ },
+ {
+  "fn": "crackTruth",
+  "args": [
+   500,
+   30
+  ],
+  "out": "500 linear feet of cracks against the 30-foot tube claim is 17 tubes - a case honestly."
+ },
+ {
+  "fn": "crackTruth",
+  "args": [
+   1,
+   30
+  ],
+  "out": "1 linear foot of cracks against the 30-foot tube claim is 1 tube - a single tube honestly."
+ },
+ {
+  "fn": "crackTruth",
+  "args": [
+   90,
+   30
+  ],
+  "out": "90 linear feet of cracks against the 30-foot tube claim is 3 tubes - a handful of tubes honestly."
+ },
+ {
+  "fn": "crackTruth",
+  "args": [
+   0,
+   30
+  ],
+  "err": "the crack length must be above zero"
+ },
+ {
+  "fn": "crackTruth",
+  "args": [
+   80,
+   0
+  ],
+  "err": "the tube claim must be above zero"
+ }
+]
